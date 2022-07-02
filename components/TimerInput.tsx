@@ -20,7 +20,7 @@ export const TimerInput = ({value , handleClick ,handleChange}: inputProps) => {
         min={0}
         />
 
-      <button onClick={handleClick} className="bg-rose-300 text-xl font-semibold font-redhat px-4 py-2 md:text-xl rounded-xl text-rose-500 hover:bg-rose-500 hover:text-rose-100 transition duration-300 ease-in"> Set Value</button>
+      <button onClick={handleClick} className="bg-rose-300 text-[#1e1f29] text-xl font-semibold font-redhat px-4 py-2 md:text-xl rounded-xl text-rose-500 hover:bg-rose-500 hover:text-rose-100 transition duration-300 ease-in"> Set Value</button>
     </div>
   )
 }
